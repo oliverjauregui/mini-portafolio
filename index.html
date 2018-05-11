@@ -48,14 +48,14 @@
 		<section id="about" class="about">
 			<h2 class="section__title">HELLO, I AM OLIVER JAUREGUI!</h2>
 			<div class="about__content">
-				<div class="about-me">
+				<div id="traslateLeft1" class="about-me animated fadeInLeft">
 					<h4 class="about-me__h4">SOME WORDS ABOUT ME</h4>
 					<p>Hola! Mi nombre es Oliver Jauregui soy diseñador UX/UI Junior y desarrollador Frontend de la carrera de "Diseño y Dearrollo para Medios Digitales" de el instituto Touluse Lautrec.</p>
                     <p>Con conocimientos en las tecnologias de HTML5, CSS3, SASS, ES6 y conocimientos de los Frameworks de Bootstrap y Bulma.</p>
                     <p>Interesado en el desarrollo profesional continuo con enfoque futuro en las tecnologias de Internet de las cosas, Design Thinking y Computer Vision.</p>
 				</div>
-				<div class="my-skills">
-					<h4s= clas"about-me__h4">MY SKILLS</h4>
+				<div id="traslateRight1" class="my-skills animated fadeInRight">
+					<h4 class="about-me__h4">MY SKILLS</h4>
 					<div class="skill" style="margin-top: 0;">
 						<div class="skill__label"><p>PHOTOSHOP <span>/ 2 YEARS OF EXPERIENCE<span></p><p>50%</p></div>
 						<div class="skill__container"><div class="skill__container__content" style="width:50%;"></div></div>
@@ -78,7 +78,7 @@
 		<section id="services" class="services">
 			<div class="services__container">
 				<h2 class="section__title black">THIS IS WHAT I DO</h2>
-				<div class="services__container__div">
+				<div class="services__container__div fade fadeIn" id="fadeIn">
 					<div class="services__ux square-wrap">
 						<span class="icon-tools"></span>
 						<h4 class="services__ux__content__h4">UX / UI design</h4>
@@ -139,11 +139,11 @@
 		    </div>
 		</div>
 	</footer>
-
-	<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-	<script src="js/main.js"></script>
+	
+	<script type="text/javascript" src="js/scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="js/lib/greensock/tweenMax.min.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
